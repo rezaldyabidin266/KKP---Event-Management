@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Use Case Sistem" id="rebuild">
+    <mxGraphModel pageWidth="1200" pageHeight="2040">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="USE CASE DIAGRAM" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=20;strokeColor=#000000;fillColor=#ffffff;align=center;text;strokeColor=none;fontStyle=1;fontSize=27;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="200" y="20" width="800" height="50" />
+        </mxCell>
+        <mxCell id="system" value="" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=20;strokeColor=#000000;fillColor=#ffffff;align=center;rounded=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="270" y="100" width="660" height="1730" />
+        </mxCell>
+        <mxCell id="systemname" value="Sistem Manajemen Event Skate Cross&lt;br/&gt;Skyline Rollerskate Club" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=20;strokeColor=#000000;fillColor=#ffffff;align=center;text;strokeColor=none;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="290" y="115" width="620" height="75" />
+        </mxCell>
+        <mxCell id="approve" value="Menyetujui Susunan Acara" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=20;strokeColor=#000000;fillColor=#ffffff;align=center;ellipse;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="380" y="220" width="440" height="85" />
+        </mxCell>
+        <mxCell id="event" value="Mengelola Event dan Kategori Lomba" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=20;strokeColor=#000000;fillColor=#ffffff;align=center;ellipse;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="380" y="350" width="440" height="85" />
+        </mxCell>
+        <mxCell id="schedule" value="Menyusun dan Mengajukan Susunan Acara" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=20;strokeColor=#000000;fillColor=#ffffff;align=center;ellipse;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="380" y="480" width="440" height="85" />
+        </mxCell>
+        <mxCell id="request" value="Mengajukan Izin Pelaksanaan Kategori" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=20;strokeColor=#000000;fillColor=#ffffff;align=center;ellipse;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="380" y="610" width="440" height="85" />
+        </mxCell>
+        <mxCell id="permit" value="Menyetujui Izin Pelaksanaan Kategori" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=20;strokeColor=#000000;fillColor=#ffffff;align=center;ellipse;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="380" y="740" width="440" height="85" />
+        </mxCell>
+        <mxCell id="elim" value="Mengelola Babak Eliminasi" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=20;strokeColor=#000000;fillColor=#ffffff;align=center;ellipse;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="380" y="870" width="440" height="85" />
+        </mxCell>
+        <mxCell id="cup" value="Mengelola Babak Cup" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=20;strokeColor=#000000;fillColor=#ffffff;align=center;ellipse;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="380" y="1000" width="440" height="85" />
+        </mxCell>
+        <mxCell id="report" value="Melihat Laporan Kompetisi" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=20;strokeColor=#000000;fillColor=#ffffff;align=center;ellipse;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="380" y="1130" width="440" height="85" />
+        </mxCell>
+        <mxCell id="prerace" value="Mengonfirmasi Kesiapan Atlet Pra-Race" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=20;strokeColor=#000000;fillColor=#ffffff;align=center;ellipse;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="380" y="1260" width="440" height="85" />
+        </mxCell>
+        <mxCell id="opening" value="Melakukan Check-in Pembukaan" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=20;strokeColor=#000000;fillColor=#ffffff;align=center;ellipse;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="380" y="1390" width="440" height="85" />
+        </mxCell>
+        <mxCell id="register" value="Mendaftarkan Atlet ke Kompetisi" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=20;strokeColor=#000000;fillColor=#ffffff;align=center;ellipse;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="380" y="1520" width="440" height="85" />
+        </mxCell>
+        <mxCell id="pay" value="Melakukan Pembayaran Pendaftaran" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=20;strokeColor=#000000;fillColor=#ffffff;align=center;ellipse;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="380" y="1650" width="440" height="85" />
+        </mxCell>
+        <mxCell id="panitia" value="Panitia" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=20;strokeColor=#000000;fillColor=#ffffff;align=center;shape=umlActor;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="65" y="760" width="90" height="140" />
+        </mxCell>
+        <mxCell id="owner" value="Owner" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=20;strokeColor=#000000;fillColor=#ffffff;align=center;shape=umlActor;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1040" y="215" width="90" height="140" />
+        </mxCell>
+        <mxCell id="pic" value="Peserta / PIC" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=20;strokeColor=#000000;fillColor=#ffffff;align=center;shape=umlActor;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1040" y="1520" width="90" height="140" />
+        </mxCell>
+        <mxCell id="gateway" value="Payment Gateway" style="html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=20;strokeColor=#000000;fillColor=#ffffff;align=center;shape=umlActor;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="555" y="1860" width="90" height="140" />
+        </mxCell>
+        <mxCell id="panitia-approve" source="panitia" target="approve" edge="1" parent="1" style="endArrow=none;startArrow=none;edgeStyle=none;strokeWidth=1.3;exitX=0.8333333333333334;exitY=0.3357142857142857;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="panitia-event" source="panitia" target="event" edge="1" parent="1" style="endArrow=none;startArrow=none;edgeStyle=none;strokeWidth=1.3;exitX=0.8333333333333334;exitY=0.3357142857142857;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="panitia-schedule" source="panitia" target="schedule" edge="1" parent="1" style="endArrow=none;startArrow=none;edgeStyle=none;strokeWidth=1.3;exitX=0.8333333333333334;exitY=0.3357142857142857;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="panitia-request" source="panitia" target="request" edge="1" parent="1" style="endArrow=none;startArrow=none;edgeStyle=none;strokeWidth=1.3;exitX=0.8333333333333334;exitY=0.3357142857142857;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="panitia-permit" source="panitia" target="permit" edge="1" parent="1" style="endArrow=none;startArrow=none;edgeStyle=none;strokeWidth=1.3;exitX=0.8333333333333334;exitY=0.3357142857142857;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="panitia-elim" source="panitia" target="elim" edge="1" parent="1" style="endArrow=none;startArrow=none;edgeStyle=none;strokeWidth=1.3;exitX=0.8333333333333334;exitY=0.3357142857142857;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="panitia-cup" source="panitia" target="cup" edge="1" parent="1" style="endArrow=none;startArrow=none;edgeStyle=none;strokeWidth=1.3;exitX=0.8333333333333334;exitY=0.3357142857142857;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="panitia-report" source="panitia" target="report" edge="1" parent="1" style="endArrow=none;startArrow=none;edgeStyle=none;strokeWidth=1.3;exitX=0.8333333333333334;exitY=0.3357142857142857;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="panitia-prerace" source="panitia" target="prerace" edge="1" parent="1" style="endArrow=none;startArrow=none;edgeStyle=none;strokeWidth=1.3;exitX=0.8333333333333334;exitY=0.3357142857142857;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="panitia-opening" source="panitia" target="opening" edge="1" parent="1" style="endArrow=none;startArrow=none;edgeStyle=none;strokeWidth=1.3;exitX=0.8333333333333334;exitY=0.3357142857142857;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="owner-approve" source="owner" target="approve" edge="1" parent="1" style="endArrow=none;startArrow=none;edgeStyle=none;strokeWidth=1.3;exitX=0.16666666666666666;exitY=0.3357142857142857;entryX=1;entryY=0.5;exitPerimeter=0;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="pic-opening" source="pic" target="opening" edge="1" parent="1" style="endArrow=none;startArrow=none;edgeStyle=none;strokeWidth=1.3;exitX=0.16666666666666666;exitY=0.3357142857142857;entryX=1;entryY=0.5;exitPerimeter=0;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="pic-register" source="pic" target="register" edge="1" parent="1" style="endArrow=none;startArrow=none;edgeStyle=none;strokeWidth=1.3;exitX=0.16666666666666666;exitY=0.3357142857142857;entryX=1;entryY=0.5;exitPerimeter=0;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="pic-pay" source="pic" target="pay" edge="1" parent="1" style="endArrow=none;startArrow=none;edgeStyle=none;strokeWidth=1.3;exitX=0.16666666666666666;exitY=0.3357142857142857;entryX=1;entryY=0.5;exitPerimeter=0;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="gateway-pay" source="gateway" target="pay" edge="1" parent="1" style="endArrow=none;startArrow=none;edgeStyle=none;strokeWidth=1.3;exitX=0.5;exitY=0;entryX=0.5;entryY=1;exitPerimeter=0;entryPerimeter=0;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
