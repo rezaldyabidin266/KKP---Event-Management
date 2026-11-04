@@ -1,0 +1,40 @@
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #192332;
+  background: #f5f6f8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+h1, h2, p { margin: 0; }
+
+.app-shell { min-height: 100vh; }
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 22px max(24px, calc((100vw - 960px) / 2));
+}
+.app-header span { color: #667085; font-size: 14px; }
+.app-main { max-width: 960px; margin: 0 auto; padding: 56px 24px; }
+.home-content { display: grid; gap: 24px; }
+.home-heading { display: grid; gap: 12px; }
+.eyebrow { text-transform: uppercase; font-size: 12px; letter-spacing: .12em; font-weight: 700; color: #64748b; }
+h1 { font-size: clamp(28px, 5vw, 40px); letter-spacing: -0.035em; }
+.intro { max-width: 680px; line-height: 1.7; color: #475467; }
+.status-panel, .next-panel { display: grid; gap: 14px; background: #ffffff; border: 1px solid #e4e7ec; border-radius: 12px; padding: 24px; }
+h2 { font-size: 17px; }
+.api-status { font-size: 14px; line-height: 1.6; }
+.api-status--loading { color: #475467; }
+.api-status--connected { color: #16703b; }
+.api-status--disconnected { color: #a15b17; }
+.next-panel p { color: #475467; line-height: 1.7; }
+@media (max-width: 640px) {
+  .app-header { flex-direction: column; align-items: flex-start; }
+  .app-main { padding-top: 32px; }
+}

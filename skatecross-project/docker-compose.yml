@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: skatecross-postgres-dev
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: skatecross
+      POSTGRES_USER: skatecross
+      POSTGRES_PASSWORD: skatecross_dev_only
+    ports:
+      - "5433:5432"
+    volumes:
+      - skatecross_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U skatecross -d skatecross"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  skatecross_pgdata:
