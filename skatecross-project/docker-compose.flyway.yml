@@ -1,0 +1,22 @@
+services:
+  flyway:
+    image: flyway/flyway:10.22.0
+
+    profiles:
+      - migration
+
+    environment:
+      FLYWAY_URL: jdbc:postgresql://postgres:5432/${KKP_DB_NAME:-skatecross}
+      FLYWAY_USER: ${KKP_DB_USER:-skatecross}
+      FLYWAY_PASSWORD: ${KKP_DB_PASSWORD:?Set KKP_DB_PASSWORD in .env}
+      FLYWAY_LOCATIONS: filesystem:/flyway/sql
+      FLYWAY_CONNECT_RETRIES: "30"
+      FLYWAY_CLEAN_DISABLED: "true"
+      FLYWAY_BASELINE_ON_MIGRATE: "false"
+
+    volumes:
+      - ./backend/src/main/resources/db/migration:/flyway/sql:ro
+
+    depends_on:
+      postgres:
+        condition: service_healthy

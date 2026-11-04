@@ -1,6 +1,32 @@
-spring:
-  application:
-    name: skatecross-api
-
 server:
-  port: ${SERVER_PORT:8080}
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:55432/skatecross
+    username: skatecross
+    password: skatecross_dev_only
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    open-in-view: false
+    show-sql: true
+
+# ============================================
+# SWAGGER / OPENAPI CONFIGURATION
+# ============================================
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /v3/api-docs
+
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+    operations-sorter: method
+    tags-sorter: alpha
+    display-request-duration: true
+    try-it-out-enabled: true
