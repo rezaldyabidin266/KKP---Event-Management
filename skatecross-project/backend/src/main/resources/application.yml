@@ -3,7 +3,8 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:55432/skatecross
+    # url: jdbc:postgresql://localhost:55432/skatecross
+    url: jdbc:postgresql://localhost:5433/skatecross
     username: skatecross
     password: skatecross_dev_only
     driver-class-name: org.postgresql.Driver
