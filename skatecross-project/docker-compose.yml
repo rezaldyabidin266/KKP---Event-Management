@@ -4,12 +4,12 @@ services:
     container_name: skatecross-postgres-dev
     restart: unless-stopped
     environment:
-      POSTGRES_DB: skatecross
+      POSTGRES_DB: ${KKP_DB_NAME}
       POSTGRES_USER: skatecross
       POSTGRES_PASSWORD: skatecross_dev_only
     ports:
-      # - "127.0.0.1:55432:5432"
-      - "127.0.0.1:5433:5432"
+      - "127.0.0.1:55432:5432"
+      # - "127.0.0.1:5433:5432"
     volumes:
       - skatecross_pgdata:/var/lib/postgresql/data
     healthcheck:

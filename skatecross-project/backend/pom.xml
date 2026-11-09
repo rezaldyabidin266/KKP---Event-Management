@@ -66,6 +66,27 @@
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
 
+        <!-- JWT untuk Java 8 -->
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-api</artifactId>
+            <version>0.11.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-impl</artifactId>
+            <version>0.11.5</version>
+            <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt-jackson</artifactId>
+            <version>0.11.5</version>
+            <scope>runtime</scope>
+        </dependency>
+
     </dependencies>
 
     <!-- JPA, PostgreSQL driver, Flyway dan Spring Security ditambahkan pada tahap terkait.

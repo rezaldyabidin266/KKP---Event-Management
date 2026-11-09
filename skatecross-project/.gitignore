@@ -3,6 +3,11 @@
 # Java 8 + Spring Boot + React + Tauri
 # ==========================================
 
+# DB
+KKP_DB_NAME=skatecross
+KKP_DB_USER=skatecross
+KKP_DB_PASSWORD=skatecross_dev_only
+
 # ==========================================
 # ENVIRONMENT VARIABLES & SECRETS
 # ==========================================
